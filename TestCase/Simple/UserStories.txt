@@ -1,0 +1,12 @@
+1.As a customer(Unregistered User), I want to create login credentials so that  I can securely access my self-service online account.
+
+
+Scenario: Unregistered User should receive confirmation message on signup
+GIVEN as an unregistered user
+WHEN I fill out the signup form
+AND click submit
+THEN I should receive a confirmation message stating:"Thanks for registering!Your account has been created and needs to be activated by the administration"  .
+
+
+
+
